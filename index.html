@@ -11,6 +11,7 @@
       background: #0f0f0f; 
       color: #ffffff; 
       text-align: center;
+      line-height: 1.6;
     }
     header {
       background: linear-gradient(135deg, #1a1a1a, #333);
@@ -19,18 +20,56 @@
     .logo {
       width: 200px;
       margin-bottom: 20px;
+      border-radius: 12px;
     }
-    h1 { color: #ffcc00; font-size: 2.8em; }
-    .subtitle { color: #aaa; font-size: 1.4em; }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+    .subtitle {
+      font-size: 1.4em;
+      color: #aaa;
+    }
+    .section {
+      padding: 50px 20px;
+    }
+    h2 {
+      color: #ffcc00;
+      margin-bottom: 30px;
+    }
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    footer {
+      background: #000;
+      padding: 40px 20px;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.PNG" alt="Diecast Pasta Tuned" class="logo">
+    <img src="logo.PNG" alt="Diecast Pasta Tuned Logo" class="logo">
     <h1>Diecast Pasta Tuned</h1>
     <p class="subtitle">Custom Hot Wheels & Diecast Builds</p>
   </header>
 
-  <p style="padding: 40px 20px;">Gallery & more coming soon...</p>
+  <div class="section">
+    <h2>Coming Soon</h2>
+    <p>High-quality custom tuned diecast cars, restorations, and unique builds.</p>
+  </div>
+
+  <div class="section">
+    <h2>Watch on YouTube</h2>
+    <p>
+      <a href="https://youtube.com/@diecastpastatuned" target="_blank">→ Diecast Pasta Tuned YouTube Channel</a>
+    </p>
+  </div>
+
+  <footer>
+    <p>Part of the Diecast Pasta Family</p>
+  </footer>
 </body>
 </html>
