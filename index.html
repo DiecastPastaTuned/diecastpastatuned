@@ -15,7 +15,6 @@
     header {
       background: linear-gradient(135deg, #1a0000, #330000, #1a1a1a);
       padding: 60px 20px;
-      position: relative;
     }
     .logo { 
       width: 220px; 
@@ -26,28 +25,27 @@
       font-size: 3em; 
       color: #ff00aa; 
       text-shadow: 0 0 20px #ff00aa;
-      margin-bottom: 8px;
     }
     .subtitle { 
       font-size: 1.5em; 
       color: #ffcc00; 
       text-shadow: 0 0 10px #ffcc00;
     }
-    .section {
-      padding: 50px 20px;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 40px 20px;
     }
-    h2 {
-      color: #ff00aa;
-      margin-bottom: 20px;
-      text-shadow: 0 0 10px #ff00aa;
+    .gallery img {
+      width: 320px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(255, 0, 170, 0.3);
+      transition: transform 0.3s;
     }
-    a {
-      color: #ffcc00;
-      text-decoration: none;
-    }
-    a:hover {
-      color: #ffffff;
-      text-shadow: 0 0 15px #ffcc00;
+    .gallery img:hover {
+      transform: scale(1.05);
     }
   </style>
 </head>
@@ -58,9 +56,22 @@
     <p class="subtitle">CarTuned Diecast Showcase</p>
   </header>
 
-  <div class="section">
-    <h2>Official CarTuned Models</h2>
-    <p>Featuring the latest MGA CarTuned releases, detailed looks, and full collections.</p>
+  <div class="section" style="padding: 50px 20px;">
+    <h2>CarTuned Collection</h2>
+    <div class="gallery">
+<img src=CarTuned-JDM-Series 3-2022 Toyota GR86-blue-orange.jpg alt=2022 Toyota GR86>
+      <img src=CarTuned-Lowrider BLVD-Series 2-1947 Chevy Fleetline.jpg alt=1947 Chevy Fleetline>
+      <img src=CarTuned-Muscle Cars HWY-Series 1-1963 Chevy Corvette-yellow-black.jpg alt=1963 Chevy Corvette>
+<img src=CarTuned-JDM-Series 1-1993 Toyota Supra-orange-green.jpg alt=1993 Toyota Supra>
+<img src=CarTuned-JDM-Series 3-1993 Toyota A90 Supra-red.jpg alt=1993 Toyota A90 Supra>
+<img src=CarTuned-Walgreens exclusive-Lowrider BLVD-Series 3-1957 GMC Panel Van-red.jpg alt=1957 GMC Panel Van>
+<img src=CarTuned-JDM-Series 3-2022 Toyota GR86-green-black.jpg alt=2022 Toyota GR86>
+<img src=CarTuned-Lowriders-Series 1-1963 Chevy Impala.jpg alt=1963 Chevy Impala>
+<img src=CarTuned-JDM-Series 1-2022 Toyota GR Supra-purple-flower deco.jpg alt=2022 Toyota GR Supra>
+<img src=CarTuned-JDM-Series 3-1983 Toyota Supra-purple blue two tone.jpg alt=1983 Toyota Supra>
+<img src=CarTuned-Lowriders-Series 1-1964 Chevy Impala.jpg alt=1964 Chevy Impala>
+<img src=CarTuned-Walgreens exclusive-Customs PKWY-1956 Chevy Nomad-Series 2-brown-gold.jpg alt=1956 Chevy Nomad>
+</div>
   </div>
 
   <div class="section">
@@ -68,11 +79,6 @@
     <p>
       <a href="https://youtube.com/@diecastpastatuned" target="_blank">→ Diecast Pasta Tuned YouTube Channel</a>
     </p>
-  </div>
-
-  <div class="section">
-    <h2>Gallery Coming Soon</h2>
-    <p>High-quality photos of my CarTuned collection will be added here.</p>
   </div>
 </body>
 </html>
